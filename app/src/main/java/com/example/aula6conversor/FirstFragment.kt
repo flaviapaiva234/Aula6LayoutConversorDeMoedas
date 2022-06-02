@@ -40,6 +40,6 @@ private var _binding: FragmentFirstBinding? = null
 
         val calc = getValueFromEditText.toDouble() * realToday
 
-        binding.textView.text = calc.toString()
+        binding.tv2.text = calc.toString()
     }
     }
