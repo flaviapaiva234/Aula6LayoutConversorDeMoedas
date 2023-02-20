@@ -36,7 +36,7 @@ private var _binding: FragmentFirstBinding? = null
     }
     private fun convert() {
         val getValueFromEditText = binding.etValor.text.toString()
-        val realToday = 4.82
+        val realToday = 5.17
 
         val calc = getValueFromEditText.toDouble() * realToday
 
